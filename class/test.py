@@ -1,0 +1,2 @@
+a = "Chaeyoung"
+print (a)
