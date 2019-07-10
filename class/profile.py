@@ -37,6 +37,6 @@ nationality : {}
 """
 # print(resultForm.format(name,age,int(age) + 1,2019 + (12-int(grade)))
 
-print(resultForm.format(name, gender, age, age + 1, 2019 + (12-grade), nationality, (40 - age) + birthyear))
+print(resultForm.format(name, gender, age, age + 1, 2019 + (12-grade), nationality, 40 + birthyear))
 
 # HW : Develop this.
