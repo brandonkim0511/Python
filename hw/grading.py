@@ -5,6 +5,7 @@ Sscore = int(input("What was your Science score? "))
 Escore = int(input("What was your English score? "))
 Hscore = int(input("What was your History score? "))
 Dscore = int(input("What was your Design score? "))
+averageScore = (Mscore + Sscore + Escore + Hscore + Dscore) / 5
 
 if Mscore == 100 : print("A+")
 elif Mscore > 90 : print("A")
@@ -53,10 +54,10 @@ Average score : {}
 
 ======================
 """
-print(report.format(Mscore, Sscore, Escore, Hscore, Dscore, (Mscore + Sscore + Escore + Hscore + Dscore) / 5)
+print(report.format(Mscore, Sscore, Escore, Hscore, Dscore, averageScore))
 
-# 2. make a reporting system.
-# 3. print a reportCard like what we did at profile.py.
+# # 2. make a reporting system.
+# # 3. print a reportCard like what we did at profile.py.
 # 4. you have to take grade from at least 5 courses.
 # 5. evaluate average
 # 6. Teacher's comment : according to the average.
